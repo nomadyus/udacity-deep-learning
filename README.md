@@ -5,3 +5,12 @@ Project containing all the assignments and notes from the [Deep Learning by Goog
 Name: [Deep Learning by Google](https://www.udacity.com/course/deep-learning--ud730)
 Author: [Vincent Vanhoucke](https://research.google.com/pubs/VincentVanhoucke.html)
 Provider: [Udacity](https://www.udacity.com)
+
+## Setup
+The assignment are [Jupyter Notebooks](https://jupyter.org/) you can instll Jupyter by installing [Anaconda](https://www.anaconda.com/download/)
+
+## Running
+Run the Jupyter notebooks using the command:
+```
+jupyter notebook [NOTEBOOK_NAME]
+```
