@@ -7,7 +7,7 @@ Author: [Vincent Vanhoucke](https://research.google.com/pubs/VincentVanhoucke.ht
 Provider: [Udacity](https://www.udacity.com)
 
 ## Setup
-The assignment are [Jupyter Notebooks](https://jupyter.org/) you can instll Jupyter by installing [Anaconda](https://www.anaconda.com/download/)
+The assignment are written in [Jupyter Notebooks](https://jupyter.org/) which allows you to run a Python environment. To install Jupyter you should first install [Anaconda](https://www.anaconda.com/download/) which comes bundled with it.
 
 ## Running
 Run the Jupyter notebooks using the command:
