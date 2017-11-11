@@ -1,1 +1,4 @@
 .ipynb*/
+*/*
+*.pickle
+*.tar.gz
