@@ -21,6 +21,6 @@ You can use Docker to run the application using the `docker-compose.yml` file to
 docker-compose up --build
 ```
 
-## Using the application
+## Viewing the application
 Once the application server is running you can view the jupyter notebooks by going to [http://localhost:8888/](http://localhost:8888/).
-You will need to use a token created for the Jupyter process which can be found in the output of the process.
+If you are running the application with Docker you will need to use a token created for the Jupyter process which can be found in the output logs of the Docker process.
