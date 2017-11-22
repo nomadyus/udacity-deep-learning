@@ -11,10 +11,12 @@ The assignment are written in [Jupyter Notebooks](https://jupyter.org/) which al
 ### Installing Tensorflow in Jupyter 
 Jupyter can install and use multiple kernels as environments to run Notebooks in. In your environment with Jupyter installed (either virtually or not), use the following commnad to install `ipykernel` to help create and manage kernels:
 ```
- python -m ipykernel install --user --name [VIRTUAL ENV NAME] --display-name [KERNEL NAME]
+python -m ipykernel install --user --name [VIRTUAL ENV NAME] --display-name [KERNEL NAME]
 ```
-Once the Notebooks are ran using Jupyter any installed kernels can be selected.
-This assignment uses Tensorflow version `1.3.0`. 
+Once the Notebooks process starts in Jupyter any installed kernel can be selected in the Jupyter environment.
+
+## Requirement 
+- This assignment uses Tensorflow version `1.3.0`. 
 
 ## Running
 You can run any iPython notebook directly using Jupyter with the command:
@@ -25,6 +27,8 @@ jupyter notebook [NOTEBOOK_NAME]
 ## Running with Docker
 You can use Docker to run the application using the `docker-compose.yml` file to build the image and the application with the following command:
 ```
+git clone git@github.com:yusuf-kami/udacity-deep-learning.git
+cd udacity-deep-learning
 docker-compose up --build
 ```
 
