@@ -8,6 +8,13 @@ Project containing all the assignments and notes from the [Deep Learning by Goog
 
 ## Setup
 The assignment are written in [Jupyter Notebooks](https://jupyter.org/) which allows you to run a Python environment. To install Jupyter you should first install [Anaconda](https://www.anaconda.com/download/) which comes bundled with it.
+### Installing Tensorflow in Jupyter 
+Jupyter can install and use multiple kernels as environments to run Notebooks in. In your environment with Jupyter installed (either virtually or not), use the following commnad to install `ipykernel` to help create and manage kernels:
+```
+ python -m ipykernel install --user --name [VIRTUAL ENV NAME] --display-name [KERNEL NAME]
+```
+Once the Notebooks are ran using Jupyter any installed kernels can be selected.
+This assignment uses Tensorflow version `1.3.0`. 
 
 ## Running
 You can run any iPython notebook directly using Jupyter with the command:
