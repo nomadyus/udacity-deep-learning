@@ -3,4 +3,4 @@ services:
   jupyter-notebooks:
     build: .
     ports:
-     - "8888:8888"  
+     - "8888:8888"
